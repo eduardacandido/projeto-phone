@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+body {
+  background: goldenrod url(images/fundo-madeira.jpg) center center no-repeat fixed;
+  background-size: cover;
+}
+
+.phone {
+  background: white url(images/frame-iphone.png) center center no-repeat fixed;
+}
