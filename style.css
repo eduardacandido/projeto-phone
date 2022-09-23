@@ -18,12 +18,13 @@
   clear: both;
   border-radius: 45px;
   width: 300px;
-  height: 625px;
-  background: white url(images/frame-iphone.png) center center no-repeat fixed;
+  height: 615px;
+  background: center center no-repeat fixed;
   background-size: cover;
   position: absolute;
   top: 50%;
   left: 50%;
+  box-sizing: border-box;
   transform: translate(-50%, -50%);
 }
 
@@ -32,20 +33,12 @@
   clear: both;
   width: 265px;
   height: 469px;
-  background: black url(images/tela-home.jpg) center center no-repeat fixed;
+  background: white center center no-repeat fixed;
   background-size: cover;
   position: absolute;
-  top: 51%;
-  left: 50%;
-  transform: translate(-50%, -51%);
-}
-
-.logo:hover {
-  margin: 10px 15px 10px 10px;
-  box-sizing: border-box;
-  border: solid 1px white;
-  transition: border 1s ease-in-out, all 0.5s ease-in-out;
-  box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.411);
+  top: 53%;
+  left: 53%;
+  transform: translate(-51%, -52%);
 }
 
 .logo {
@@ -55,8 +48,16 @@
   height: 60px;
   display: block;
   float: right;
-  clear: both;
+  clear: both; 
   position: relative;
+}
+
+.logo:hover {
+  margin: 10px 15px 10px 10px;
+  box-sizing: border-box;
+  border: solid 1px white;
+  transition: border 1s ease-in-out, all 0.5s ease-in-out;
+  box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.411);
 }
 
 #logo1 {
@@ -129,4 +130,40 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.tela {
+  width: 100%;
+}
+
+.botao {
+  margin: 3%;
+  width: 94%;
+  height: 20vh;
+  font-size: 7vh;
+  display: block;
+  color: white;
+  padding-top: 5vh;
+  text-align: center;
+  border-radius: 20px;
+  text-decoration: none;
+  box-sizing: border-box;
+  background-color: rgb(210, 0, 0);
+  border: solid 7px rgba(255, 255, 255, 0.13);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.400);
+}
+
+.botao:hover {
+  transition-duration: 1s;
+  border: double 7px rgba(255, 255, 255, 0.425);
+  background-color: rgb(170, 0, 0);
+  transition: all 0.4s ease-in-out;
+}
+
+.bgDark {
+  background-color: rgb(33, 33, 33);
+}
+
+#bgDark {
+  background-color: rgb(0, 0, 0);
 }
