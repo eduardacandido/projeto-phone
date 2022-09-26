@@ -1,5 +1,5 @@
-# projeto-phone
- A project of a phone screen and social medias
+# phone-project
+ A project of a phone screen and its social medias
 
 
 Click here to access it:
